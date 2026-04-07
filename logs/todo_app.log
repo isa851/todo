@@ -1,0 +1,19 @@
+INFO 2026-04-06 16:04:20,470 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+WARNING 2026-04-06 16:04:24,109 log log_message 249 Not Found: /api/v1/
+WARNING 2026-04-06 16:04:24,109 log log_message 249 "GET /api/v1/ HTTP/1.1" 404 3048
+WARNING 2026-04-06 16:04:34,073 log log_message 249 Unauthorized: /api/v1/users/
+WARNING 2026-04-06 16:04:34,073 log log_message 249 "GET /api/v1/users/ HTTP/1.1" 401 5060
+WARNING 2026-04-06 16:04:46,075 log log_message 249 Not Found: /api/v1/auth/
+WARNING 2026-04-06 16:04:46,075 log log_message 249 "GET /api/v1/auth/ HTTP/1.1" 404 3063
+WARNING 2026-04-06 16:04:51,919 log log_message 249 Method Not Allowed: /api/v1/auth/token/
+WARNING 2026-04-06 16:04:51,920 log log_message 249 "GET /api/v1/auth/token/ HTTP/1.1" 405 7649
+WARNING 2026-04-06 16:05:28,136 log log_message 249 Unauthorized: /api/v1/users/
+WARNING 2026-04-06 16:05:28,136 log log_message 249 "GET /api/v1/users/ HTTP/1.1" 401 5060
+WARNING 2026-04-06 16:05:31,467 log log_message 249 Method Not Allowed: /api/v1/users/register/
+WARNING 2026-04-06 16:05:31,468 log log_message 249 "GET /api/v1/users/register/ HTTP/1.1" 405 9255
+WARNING 2026-04-06 16:05:43,944 log log_message 249 Method Not Allowed: /api/v1/users/login/
+WARNING 2026-04-06 16:05:43,944 log log_message 249 "GET /api/v1/users/login/ HTTP/1.1" 405 7693
+WARNING 2026-04-06 16:05:49,427 log log_message 249 Bad Request: /api/v1/users/login/
+WARNING 2026-04-06 16:05:49,428 log log_message 249 "POST /api/v1/users/login/ HTTP/1.1" 400 7669
+WARNING 2026-04-06 16:06:11,708 log log_message 249 Method Not Allowed: /api/v1/users/login/
+WARNING 2026-04-06 16:06:11,708 log log_message 249 "GET /api/v1/users/login/ HTTP/1.1" 405 7693
