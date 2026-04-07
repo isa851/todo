@@ -17,3 +17,636 @@ WARNING 2026-04-06 16:05:49,427 log log_message 249 Bad Request: /api/v1/users/l
 WARNING 2026-04-06 16:05:49,428 log log_message 249 "POST /api/v1/users/login/ HTTP/1.1" 400 7669
 WARNING 2026-04-06 16:06:11,708 log log_message 249 Method Not Allowed: /api/v1/users/login/
 WARNING 2026-04-06 16:06:11,708 log log_message 249 "GET /api/v1/users/login/ HTTP/1.1" 405 7693
+INFO 2026-04-07 11:15:23,129 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+WARNING 2026-04-07 11:15:31,847 log log_message 249 Not Found: /
+WARNING 2026-04-07 11:15:31,848 log log_message 249 "GET / HTTP/1.1" 404 3009
+INFO 2026-04-07 11:23:14,183 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+WARNING 2026-04-07 11:23:15,498 log log_message 249 Not Found: /
+WARNING 2026-04-07 11:23:15,499 log log_message 249 "GET / HTTP/1.1" 404 3009
+WARNING 2026-04-07 11:23:21,136 log log_message 249 Not Found: /api/v1/news/
+WARNING 2026-04-07 11:23:21,136 log log_message 249 "GET /api/v1/news/ HTTP/1.1" 404 3063
+INFO 2026-04-07 11:23:26,635 log log_message 249 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:23:26,668 log log_message 249 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4079
+INFO 2026-04-07 11:23:26,741 log log_message 249 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-07 11:23:26,742 log log_message 249 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-07 11:23:26,743 log log_message 249 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-07 11:23:26,744 log log_message 249 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-07 11:23:26,743 log log_message 249 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-07 11:23:26,743 log log_message 249 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-07 11:23:26,744 log log_message 249 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-07 11:23:30,570 log log_message 249 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:23:30,580 log log_message 249 "GET /admin/ HTTP/1.1" 200 7521
+INFO 2026-04-07 11:23:30,632 log log_message 249 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-04-07 11:23:30,640 log log_message 249 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-07 11:23:30,640 log log_message 249 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-07 11:23:33,609 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:23:33,632 log log_message 249 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-07 11:23:33,636 log log_message 249 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-07 11:23:33,637 log log_message 249 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-07 11:23:33,637 log log_message 249 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-07 11:23:33,640 log log_message 249 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-07 11:23:33,641 log log_message 249 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-07 11:23:33,642 log log_message 249 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-07 11:23:33,643 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:23:33,644 log log_message 249 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-07 11:23:33,645 log log_message 249 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-07 11:23:33,647 log log_message 249 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-07 11:23:33,675 log log_message 249 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-07 11:23:33,677 log log_message 249 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-07 11:23:33,719 log log_message 249 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-07 11:24:03,944 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+ERROR 2026-04-07 11:24:04,007 log log_message 249 Internal Server Error: /admin/todo/todo/
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 684, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 293, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 333, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 686, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Todo has no field named 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/base.py", line 47, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/library.py", line 363, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 357, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 333, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 324, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 221, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    value = attr(obj)
+  File "/home/isa/neBydyzapolnutBazy/apps/todo/admin.py", line 61, in has_image
+    return format_html(
+        '<span style="color: green;">✓</span>'
+    )
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/utils/html.py", line 137, in format_html
+    raise TypeError("args or kwargs must be provided.")
+TypeError: args or kwargs must be provided.
+ERROR 2026-04-07 11:24:04,010 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 500 349443
+INFO 2026-04-07 11:24:11,394 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+INFO 2026-04-07 11:24:26,978 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/apps/todo/admin.py changed, reloading.
+INFO 2026-04-07 11:24:27,503 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+ERROR 2026-04-07 11:24:59,385 log log_message 249 Internal Server Error: /admin/todo/todo/
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 684, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 293, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 333, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 686, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Todo has no field named 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/base.py", line 47, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/library.py", line 363, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 357, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 333, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 324, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 221, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    value = attr(obj)
+  File "/home/isa/neBydyzapolnutBazy/apps/todo/admin.py", line 61, in has_image
+    return format_html(
+        '<span style="color: green;">✓</span>'
+    )
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/utils/html.py", line 137, in format_html
+    raise TypeError("args or kwargs must be provided.")
+TypeError: args or kwargs must be provided.
+ERROR 2026-04-07 11:24:59,389 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 500 349010
+ERROR 2026-04-07 11:25:00,868 log log_message 249 Internal Server Error: /admin/todo/todo/
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 684, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 293, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 333, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 686, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Todo has no field named 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/base.py", line 47, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/library.py", line 363, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 357, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 333, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 324, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 221, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    value = attr(obj)
+  File "/home/isa/neBydyzapolnutBazy/apps/todo/admin.py", line 61, in has_image
+    return format_html(
+        '<span style="color: green;">✓</span>'
+    )
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/utils/html.py", line 137, in format_html
+    raise TypeError("args or kwargs must be provided.")
+TypeError: args or kwargs must be provided.
+ERROR 2026-04-07 11:25:00,871 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 500 349010
+INFO 2026-04-07 11:25:01,434 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:25:01,992 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:25:02,010 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:25:09,793 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+ERROR 2026-04-07 11:25:09,848 log log_message 249 Internal Server Error: /admin/todo/todo/
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 684, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 293, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 333, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/db/models/options.py", line 686, in get_field
+    raise FieldDoesNotExist(
+        "%s has no field named '%s'" % (self.object_name, field_name)
+    )
+django.core.exceptions.FieldDoesNotExist: Todo has no field named 'has_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/base.py", line 47, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/template/library.py", line 363, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 357, in result_list
+    "results": list(results(cl)),
+               ~~~~^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 333, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 324, in __init__
+    super().__init__(*items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/templatetags/admin_list.py", line 221, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    value = attr(obj)
+  File "/home/isa/neBydyzapolnutBazy/apps/todo/admin.py", line 64, in has_image
+    return format_html(
+        '<span style="color: red;">✗</span>',
+    )
+  File "/home/isa/neBydyzapolnutBazy/venv/lib/python3.14/site-packages/django/utils/html.py", line 137, in format_html
+    raise TypeError("args or kwargs must be provided.")
+TypeError: args or kwargs must be provided.
+ERROR 2026-04-07 11:25:09,852 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 500 349841
+INFO 2026-04-07 11:25:20,040 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/apps/todo/admin.py changed, reloading.
+INFO 2026-04-07 11:25:20,499 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+INFO 2026-04-07 11:25:22,634 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/apps/todo/admin.py changed, reloading.
+INFO 2026-04-07 11:25:23,158 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+INFO 2026-04-07 11:25:27,322 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/apps/todo/admin.py changed, reloading.
+INFO 2026-04-07 11:25:27,765 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+INFO 2026-04-07 11:25:56,490 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 15194
+INFO 2026-04-07 11:25:56,519 log log_message 249 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-04-07 11:25:56,521 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:25:56,521 log log_message 249 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-07 11:25:56,561 log log_message 249 "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-04-07 11:25:56,575 log log_message 249 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-04-07 11:25:56,575 log log_message 249 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+INFO 2026-04-07 11:26:03,448 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:26:03,468 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:26:23,140 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18177
+INFO 2026-04-07 11:26:23,164 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:26:29,358 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:26:29,370 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 16233
+INFO 2026-04-07 11:26:29,435 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:26:29,455 log log_message 249 "GET /static/admin/img/icon-yes-dark.svg HTTP/1.1" 200 558
+INFO 2026-04-07 11:27:08,020 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:08,048 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:13,050 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:13,061 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 16979
+INFO 2026-04-07 11:27:13,139 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:14,406 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:14,433 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:21,023 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:21,035 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 17784
+INFO 2026-04-07 11:27:21,101 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:22,285 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:22,315 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:27,083 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:27,099 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 18574
+INFO 2026-04-07 11:27:27,166 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:28,446 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:28,469 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:34,452 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:34,468 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 19343
+INFO 2026-04-07 11:27:34,534 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:36,124 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:36,147 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:42,347 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18158
+INFO 2026-04-07 11:27:42,364 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:45,852 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:45,866 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 20119
+INFO 2026-04-07 11:27:45,931 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:47,492 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:47,511 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:56,340 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:27:56,353 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 20895
+INFO 2026-04-07 11:27:56,422 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:27:57,636 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:27:57,660 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:01,443 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:28:01,456 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 21794
+INFO 2026-04-07 11:28:01,517 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:02,765 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:28:02,787 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:07,485 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:28:07,499 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 22830
+INFO 2026-04-07 11:28:07,558 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:25,016 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:28:25,055 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:29,631 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:28:29,648 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 23650
+INFO 2026-04-07 11:28:29,713 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:31,068 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:28:31,092 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:35,629 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18381
+INFO 2026-04-07 11:28:35,645 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:41,147 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:28:41,161 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 24558
+INFO 2026-04-07 11:28:41,224 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:43,023 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:28:43,046 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:48,188 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18441
+INFO 2026-04-07 11:28:48,207 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:52,127 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18441
+INFO 2026-04-07 11:28:52,148 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:28:54,221 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18441
+INFO 2026-04-07 11:28:54,239 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:00,958 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:00,972 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 25304
+INFO 2026-04-07 11:29:01,037 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:04,286 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:04,307 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:08,652 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18261
+INFO 2026-04-07 11:29:08,665 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:13,196 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18261
+INFO 2026-04-07 11:29:13,214 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:19,038 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:19,053 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 26070
+INFO 2026-04-07 11:29:19,120 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:20,428 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:20,453 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:24,299 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 200 18358
+INFO 2026-04-07 11:29:24,315 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:27,541 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:27,557 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 26852
+INFO 2026-04-07 11:29:27,626 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:30,795 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:30,821 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:36,733 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:36,748 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 27608
+INFO 2026-04-07 11:29:36,812 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:38,396 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:38,428 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:43,866 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:43,882 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 28402
+INFO 2026-04-07 11:29:43,959 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:46,283 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:46,305 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:52,483 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:29:52,498 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 29156
+INFO 2026-04-07 11:29:52,560 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:29:55,931 log log_message 249 "GET /admin/todo/todo/add/ HTTP/1.1" 200 17897
+INFO 2026-04-07 11:29:55,954 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:30:01,157 log log_message 249 "POST /admin/todo/todo/add/ HTTP/1.1" 302 0
+INFO 2026-04-07 11:30:01,174 log log_message 249 "GET /admin/todo/todo/ HTTP/1.1" 200 29932
+INFO 2026-04-07 11:30:01,240 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:30:08,645 log log_message 249 "GET /admin/users/user/ HTTP/1.1" 200 14611
+INFO 2026-04-07 11:30:08,673 log log_message 249 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-07 11:30:08,677 log log_message 249 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-04-07 11:31:18,201 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/apps/users/apps.py changed, reloading.
+INFO 2026-04-07 11:31:18,697 autoreload run_with_reloader 681 Watching for file changes with StatReloader
+INFO 2026-04-07 11:31:28,878 autoreload trigger_reload 265 /home/isa/neBydyzapolnutBazy/core/settings.py changed, reloading.
